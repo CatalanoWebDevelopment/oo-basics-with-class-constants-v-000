@@ -19,7 +19,7 @@ class Shoe
   def brands
     BRANDS.each do |brand|
       if brand != brand
-        binding.pry
+        brand
       end
     end
   end
