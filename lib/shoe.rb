@@ -17,7 +17,7 @@ class Shoe
   end
 
   def brands(brand)
-    BRANDS.each do |brand|
+    brand.each do |brand|
       if brand != brand
         brand
       end
