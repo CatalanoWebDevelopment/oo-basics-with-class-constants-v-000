@@ -16,11 +16,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brands(brand)
-    brand.each do |brand|
-      if brand != brand
-        brand
-      end
+  def brands
+    BRANDS.each do |brand|
+      BRAND.uniq
     end
   end
 
