@@ -20,6 +20,7 @@ class Shoe
     BRANDS.each do |brand|
       if brand <=> brand
         brand
+        binding.pry
       end
     end
   end
