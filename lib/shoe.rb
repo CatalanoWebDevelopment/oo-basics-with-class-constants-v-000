@@ -17,7 +17,7 @@ class Shoe
   end
 
   def brands
-    BRANDS.each do |brand|
+    BRANDS.map do |brand|
       BRAND.uniq
     end
   end
